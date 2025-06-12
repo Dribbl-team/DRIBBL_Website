@@ -64,9 +64,14 @@ export function Navbar({ brandName, routes }) {
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            {brandName}
-          </Typography>
+          <span className="flex items-center mr-4 ml-2 cursor-pointer py-1.5 font-bold">
+            <img
+              src="/img/Screenshot_20250422_231039_Chrome.jpg"
+              alt="Dribbl Logo"
+              className="h-6 w-6 mr-2 rounded"
+            />
+            Dribbl
+          </span>
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <IconButton
