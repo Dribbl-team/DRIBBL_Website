@@ -31,8 +31,8 @@ export function Home() {
                 Welcome to Dribbl
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                The first ever Social Media app for Soccer!
-                A new home for fans, players, and creators to share, connect, and compete.
+              Dribbl – Canada’s Soccer-First Social Network
+              A new home for players, fans, and creators. Share highlights. Build your soccer identity. Join a community built for the beautiful game.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 Coming soon to the App Store and Google Play!
@@ -52,17 +52,17 @@ export function Home() {
               >
                 What is Dribbl?
               </Typography>
-              <Typography className="mb-8 font-normal text-blue-gray-500 text-left text-lg md:text-xl leading-relaxed">
-                Dribbl is Canada’s first-ever soccer-only social media app — a positive, engaging space for soccer lovers to:
+              <Typography className="mb-8 font-normal text-black text-left text-lg md:text-xl leading-relaxed">
+              Dribbl is Canada’s soccer-first social platform — built to connect fans, players, and communities across the country. Inspired by LinkedIn, Dribbl is where you can grow your soccer network, share your journey, and engage with others who live the game.
+              Here's what you can do on Dribbl:
                 <ul className="list-disc pl-6 mt-4 space-y-2 text-base md:text-lg">
                   <li>Share match highlights, training clips, and behind-the-scenes moments</li>
-                  <li>Join team communities and league threads</li>
+                  <li>Connect with others who support your team or play your position</li>
                   <li>Participate in challenges and showcase skills</li>
-                  <li>Stay updated on local and global soccer news</li>
+                  <li>Build your profile to showcase your identity in the game</li>
                 </ul>
                 <br />
-                Curious about what we’re building?
-                Explore our early designs and app features below:
+                Curious about what we’re building? Explore our early designs and app features below:
               </Typography>
             </div>
             {/* Right side image */}
@@ -88,13 +88,13 @@ export function Home() {
             <Typography variant="lead" className="text-white text-left">
               <ul className="list-disc pl-6 mt-2">
                 <li>
-                  <span className="text-orange-500">🔥</span> No more toxic feeds — Dribbl is for real soccer fans
+                  <span className="text-orange-500">🔥</span> 🤝 Built for connection — Dribbl helps you find and engage with people who love the game like you do!
                 </li>
                 <li>
-                  <span className="text-orange-500">🧠</span> Smart, soccer-first design — not another generic social app
+                  <span className="text-orange-500">🧠</span> ⚽ Focused on soccer — No distractions, just meaningful moments and real football stories!
                 </li>
                 <li>
-                  <span className="text-orange-500">🌎</span> Built in Canada, made for the world
+                  <span className="text-orange-500">🌎</span> 🇨🇦 Proudly Canadian — Designed for the Diverse Canadian soccer community!
                 </li>
               </ul>
             </Typography>
@@ -117,7 +117,13 @@ export function Home() {
           {/* Left: Sign up form */}
           <form className="w-full md:w-1/2 max-w-lg bg-black rounded-xl p-10 shadow-lg">
             <Typography variant="h2" className="font-bold text-white mb-4 text-left">
-              Sign Up For An Account
+              Join the Dribbl beta version
+            </Typography>
+            <Typography className="text-base font-normal text-white">
+              Be among the first to try the platform built for soccer players and fans.
+            </Typography>
+            <Typography className="text-base font-normal text-white mb-6">
+              Sign up below to receive early access and updates.
             </Typography>
             <div className="mb-6">
               <label className="block text-white mb-2" htmlFor="firstName">
@@ -157,7 +163,7 @@ export function Home() {
               className="mt-4 bg-orange-500 text-white font-bold py-3 px-8 rounded-md w-full text-lg normal-case"
               fullWidth
             >
-              Sign Up
+              submit
             </Button>
           </form>
           {/* Right: Screenshot image */}
