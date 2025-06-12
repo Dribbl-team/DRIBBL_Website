@@ -31,8 +31,10 @@ export function Home() {
                 Welcome to Dribbl
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-              Dribbl – Canada’s Soccer-First Social Network
-              A new home for players, fans, and creators. Share highlights. Build your soccer identity. Join a community built for the beautiful game.
+              Dribbl – Canada’s Soccer-First Social Network!
+              </Typography>
+              <Typography className="text-sm font-normal text-white italic"></Typography>
+             A new home for players, fans, and creators. Share highlights. Build your soccer identity. Join a community built for the beautiful game.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 Coming soon to the App Store and Google Play!
